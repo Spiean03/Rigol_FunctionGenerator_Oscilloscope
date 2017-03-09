@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Mar 09 12:56:14 2017
-
-@author: aspiel
+Bode Plotter
 """
 
 from instruments import *
