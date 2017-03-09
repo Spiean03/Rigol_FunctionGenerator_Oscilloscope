@@ -16,6 +16,6 @@ Example Oscilloscope:
 ```python
 scope = Scope() # Connects to the Oscilloscope
 timebase = scope.setTimebase(0.001) # Set horizontal scale to 0.001 seconds per division
-voltsPerDivision = scope.setVerticalGain(1,1.0) # Set CH1 to 1V per division
+voltsPerDivision = scope.setVerticalGain(1,1.0) # Set CH1 vertical scale to 1V per division
 y = scope.getSamples(1) # Record the data from one trigger into vector y
 ```
