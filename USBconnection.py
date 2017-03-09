@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Mar 09 12:33:21 2017
-
-@author: aspiel
+Find USB Port_no
 """
 
 import serial.tools.list_ports
