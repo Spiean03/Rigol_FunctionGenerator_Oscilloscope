@@ -14,6 +14,8 @@ gen.sine(1,1000,2) # Produces a sine wave on CH1, with frequency 1000Hz and Ampl
 Example Oscilloscope:
 ---------------------
 ```python
+import instruments.py
+
 scope = Scope() # Connects to the Oscilloscope
 timebase = scope.setTimebase(0.001) # Set horizontal scale to 0.001 seconds per division
 voltsPerDivision = scope.setVerticalGain(1,1.0) # Set CH1 vertical scale to 1V per division
